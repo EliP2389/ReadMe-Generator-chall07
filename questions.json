@@ -30,7 +30,7 @@
                 "type": "checkbox",
                 "name": "license",
                 "message": "What license did you use?",
-                "choices": ["MIT", "NPM", "BSD", "OEM"]
+                "choices": ["MIT", "EPL", "BSD", "MPL"]
         }
 
 ]
