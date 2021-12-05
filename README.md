@@ -3,10 +3,10 @@
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  #    
+  # ReadMe Generator
 
   ## Description
-  
+  Dynamically creating a professionaly readme.md file, using backing technology with node.js
 
   ## Table of contents
   * [Installation](#Installation)
@@ -15,7 +15,7 @@
   * [Questions](#Questions)
 
   ## Installation
-  
+  npm init <br> npm install inquirer 
 
   ##  Usage
   <img src="./assets/images/readme1-img.png">
@@ -30,8 +30,8 @@
   MIT
 
   ## Questions
-  <a href="https://github.com/">GitHub</a>
-  You can reach me at  for any further questions regasrding this project.
+  <a href="https://github.com/EliP2389">GitHub</a>
+  You can reach me at mbk8689@gmail.com for any further questions regasrding this project.
 
 
 

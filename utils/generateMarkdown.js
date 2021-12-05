@@ -61,10 +61,10 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Table of contents
-  * [Installation](#Installation)
-  * [Usage](#Usage)
-  * [Credits](#Credits)
-  * [Questions](#Questions)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  * [Questions](#qasuestions)
 
   ## Installation
   ${data.installation}
@@ -78,12 +78,13 @@ function generateMarkdown(data) {
   ## Contributing
   ${data.collaborate}
 
+
   ## License
   ${data.license}
 
   ## Questions
   <a href="https://github.com/${data.link}">GitHub</a>
-  You can reach me at ${data.email} for any further questions regasrding this project.
+  You can reach me at ${data.email} for any further questions regarding this project.
 
 
 
