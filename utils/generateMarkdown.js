@@ -82,6 +82,9 @@ function generateMarkdown(data) {
   ## License
   ${data.license}
 
+  ## Tests
+  ${data.test}
+
   ## Questions
   <a href="https://github.com/${data.link}">GitHub</a>
   You can reach me at ${data.email} for any further questions regarding this project.

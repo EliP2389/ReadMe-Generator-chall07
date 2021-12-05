@@ -30,6 +30,9 @@
   ## License
   MIT
 
+  ## Tests
+  node index.js <br> answer all prompted questions
+
   ## Questions
   <a href="https://github.com/EliP2389">GitHub</a>
   You can reach me at mbk8689@gmail.com for any further questions regarding this project.

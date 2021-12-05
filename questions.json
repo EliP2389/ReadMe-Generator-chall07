@@ -39,6 +39,11 @@
         },
         {
                 "type": "input",
+                "name": "test",
+                "message": "Testing procedure"
+        },
+        {
+                "type": "input",
                 "name": "link",
                 "message": "Enter your GitHub user name"
                 
