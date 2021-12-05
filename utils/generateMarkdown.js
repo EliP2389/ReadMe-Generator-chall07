@@ -65,16 +65,23 @@ function generateMarkdown(data) {
   * [Installation](#installation)
   * [Usage](#usage)
   * [Credits](#credits)
+  * [Questions](#questions)
 
   ## Installation
   ${data.installation}
 
   ##  Usage
   ${data.link}
-  <img src="./images/forecast-img.png">
+  <img src="./assets/images/readme1-img.png">
+  <img src="./assets/images/readme2-img.png">
 
-  ## Credits
+  ## Contributing
   ${data.collaborate}
+
+  ## Questions
+  <a href="https://github.com/${data.link}">GitHub</a>
+  You can reach me at ${data.email} for any further questions regasrding this project.
+
 
 
 `

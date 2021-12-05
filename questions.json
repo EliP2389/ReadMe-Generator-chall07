@@ -15,11 +15,6 @@
                 "message": "What are the steps required to install your project?"
         },
         {
-                "type": "input",
-                "name": "link",
-                "message": "Add scrrenshots of your project"
-        },
-        {
                 "type": "confirm",
                 "name": "confirmCollaborators",
                 "message": "Do you want to list any collaborators on this project?",
@@ -41,5 +36,16 @@
                         "BSD",
                         "MPL"
                 ]
-        }
+        },
+        {
+                "type": "input",
+                "name": "link",
+                "message": "Enter your GitHub user name"
+                
+        },
+        {
+                "type": "input",
+                "name": "email",
+                "message": "Enter your email"        
+        }      
 ]
