@@ -11,17 +11,22 @@
         },
         {
                 "type": "input",
+                "name": "installation",
+                "message": "What are the steps required to install your project?"
+        },
+        {
+                "type": "input",
                 "name": "link",
                 "message": "Add scrrenshots of your project"
         },
         {
-               "type": "confirm",
-               "name": "confirmCollaborators",
-               "message": "Do you want to list any collaborators on this project?",
-               "default": true
+                "type": "confirm",
+                "name": "confirmCollaborators",
+                "message": "Do you want to list any collaborators on this project?",
+                "default": false
         },
         {
-                "type":"input",
+                "type": "input",
                 "name": "collaborate",
                 "message": "List the collaborators that worked on this project",
                 "when": "({ confirmCollaborators}), => confirmCollaborators"
@@ -30,10 +35,11 @@
                 "type": "checkbox",
                 "name": "license",
                 "message": "What license did you use?",
-                "choices": ["MIT", "EPL", "BSD", "MPL"]
+                "choices": [
+                        "MIT",
+                        "EPL",
+                        "BSD",
+                        "MPL"
+                ]
         }
-
 ]
-
-
-
